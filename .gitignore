@@ -1,0 +1,31 @@
+# --- Python & General ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+.vscode/
+.idea/
+.DS_Store
+
+# --- MLflow & Tracking ---
+#mlflow.db
+#mlruns/
+# Si usas wandb u otras herramientas, añádelas aquí también:
+# wandb/
+
+# --- Model Checkpoints & Weights ---
+# Es recomendable ignorar los pesos pesados para no saturar Git (subirlos a Releases o DVC si es necesario)
+#saved_models_*/
+#*.ckpt
+#*.pt
+#*.pth
+*.h5
+
+# --- Streamlit ---
+.streamlit/

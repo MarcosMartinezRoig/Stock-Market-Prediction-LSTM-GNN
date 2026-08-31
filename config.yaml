@@ -1,0 +1,15 @@
+# Configuración general de entrenamiento LSTM-GAT
+use_returns: true
+use_directional_loss: true
+use_rollout: false
+
+seq_len: 30
+base_horizon: 7
+rollout_steps: 7
+batch_size: 32
+epochs: 30
+patience: 7
+lr: 0.001
+alpha_loss: 0.3
+save_dir: "saved_models_h7_TT_NR_test"
+experiment_name: "LSTM-GAT_h7_TT_NR_test"
